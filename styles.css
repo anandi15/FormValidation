@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bfd9f76b;
+    background-image: url('bgimage.jpeg'); /* Replace 'background-image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 300px; /* Reduced width */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(207, 215, 215, 0.863); /* Light Purple */
+    border-radius: 8px;
+}
+.container h1 {
+    font-size: 24px; /* Adjust the font size as desired */
+}
+
+
+.form-group {
+    margin-bottom: 15px; /* Reduced margin */
+}
+
+.form-control {
+    width: calc(100% - 22px); /* Adjusted width to fit the container padding and border */
+    padding: 8px; /* Reduced padding */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    display: block;
+    width: 100px; /* Reduced width */
+    padding: 8px; /* Reduced padding */
+    border: none;
+    border-radius: 5px;
+    background-color: #6c757d; /* Dark Purple */
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px; /* Added margin to separate from inputs */
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    color: #666; /* Grey color */
+    margin-top: 20px; /* Adjusted margin */
+}
